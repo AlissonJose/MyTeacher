@@ -1,0 +1,97 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f5d0e7;
+            
+
+    }
+
+    .logo {
+       margin-bottom: 2rem;
+
+    }
+
+    main {
+        background-color: #e6e6e6;
+        padding-top: 8rem;
+        padding: 8rem;
+
+    }
+
+    .teacher-container {
+        max-width: 450px;
+        padding: 10px;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    .teacher-img{
+        width: 100%;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        
+       
+
+
+    }
+
+    .teacher-name{
+        font-weight: 900;
+    }
+
+    .teacher-price{
+
+        font-weight: 700;
+        color: #F52273;
+    }
+
+    .teacher-description{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .teacher-contract{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .teacher-contract-hours{
+
+        width: 48%;
+        color: #565656;
+        background-color: #F5F5F5;
+        outline: none;
+        border: 1px solid #d11a8b;
+        padding: 1rem 0;
+        border-radius: 8px;
+        text-align: center;                       
+
+    }
+
+    .teacher-contract-button{
+        width: 48%;
+        color: #fff;
+        background-color: #F52273;
+        border-radius: 8px;
+        border: none;
+        font-weight: 900;
+        transition: background-color 0.5s;       
+    }
+
+    .teacher-contract-button:hover {
+        background-color: #cd1c60;
+    }
+
